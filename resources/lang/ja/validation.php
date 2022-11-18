@@ -151,6 +151,14 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'post' => [
+            'index' => '日記',
+            'title' => 'タイトル',
+            'picture' => '画像',
+            'content' => 'コンテンツ',
+            'status' => 'ステータス',
+        ],
+    ],
 
 ];
